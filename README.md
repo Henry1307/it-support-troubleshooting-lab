@@ -48,3 +48,51 @@ In Progress
 ## Author
 
 Henry Joseph Varghese
+
+
+## Exercise 01: Hardware Identification
+
+### Objective
+Identify and document the hardware specifications of a computer using macOS system diagnostic tools.
+
+### Test Environment
+- Device: MacBook Air
+- Model: MacBookAir10,1
+- Operating System: macOS 26.6.1
+
+### Hardware Specifications
+
+| Component | Specification |
+|---|---|
+| Processor | Apple M1 |
+| CPU Cores | 8 (4 Performance, 4 Efficiency) |
+| GPU Cores | 7 |
+| Memory | 8 GB |
+| Storage | 256 GB SSD |
+| Available Storage | 95.23 GB |
+| File System | APFS |
+| Display | 2560 × 1600 Retina |
+
+### Tools Used
+- macOS Terminal
+- system_profiler
+- sw_vers
+
+### Commands Used
+```bash
+system_profiler SPHardwareDataType
+system_profiler SPStorageDataType
+system_profiler SPDisplaysDataType
+sw_vers
+```
+
+### Result
+Successfully identified and documented the computer's processor, memory, storage, graphics, display, and operating system.
+
+### Skills Demonstrated
+- Hardware identification
+- Operating system information gathering
+- Command-line fundamentals
+- System diagnostics
+- Technical documentation
+
